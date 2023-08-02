@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components';
-import shape from "../imiges/shape.svg"
+import shape from "../imiges/Shape.svg"
 
 
 export default function SerchBar({ getInfo, aboutData, getUser, theMe , getData , message}) {
