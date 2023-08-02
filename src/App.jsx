@@ -18,7 +18,7 @@ export const ThemeContext = createContext(null);
 
 function App() {
 const [getData, setGetData] = useState()
-const [getInfo, setGetInfo] = useState("beqa200")
+const [getInfo, setGetInfo] = useState("")
 const [theMe, setTheme] = useState("light")
 const [message , setMessage] = useState()
 const [formattedDate, setFormattedDate] = useState("");
