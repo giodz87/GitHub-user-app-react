@@ -122,7 +122,7 @@ const toggleTheme = () => {
     <>
    
   <div className='iconline'><img className='pin-icon' src={pin} alt="" /> <p>{getData.location ? getData.location : "Not Available"}</p></div> 
- <div className='iconline'> <img className='pin-icon' src={url} alt=""/> <a href= "#">{getData.blog ? getData.blog.slice(0, 20) :  "Not Available" }</a></div>
+ <div className='iconline'> <img className='pin-icon' src={url} alt=""/> <a href={getData.blog}> {getData.blog ? getData.blog.slice(0, 20) :  "Not Available" }</a></div>
   <div className='iconline'><img className='pin-icon' src={twitter} alt=""/> <p> {getData.twitter_username ? getData.twitter_username :  "Not Available"} </p></div>
  <div className='iconline'> <img className='pin-icon' src={building} alt=""/> <p> {getData.company ? getData.company :  "Not Available" }</p> </div>
   </>
